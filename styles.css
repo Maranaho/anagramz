@@ -1,0 +1,56 @@
+body{
+    margin: 0;
+    font-family: sans-serif;
+}
+
+main {
+    width: 600px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+h1,h2,h3,p {margin:0}
+h2,h3{
+    font-size: 1em;
+}
+header > div,
+header {
+    display: flex;
+    flex-direction: column;
+}
+header > div{
+
+    gap: 10px;
+}
+header {
+    gap: 30px;
+    position: sticky;
+    top: 0;
+    padding-top: 80px;
+    background: #fff;
+
+}
+h1 {
+    font-weight: 100;
+    font-size: 4em;
+}
+article {
+    gap: 10px;
+    display: grid;
+    grid-template-columns: repeat(5,1fr);
+}
+
+span {
+    background: #eee;
+    padding: 5px 15px;
+    text-align: center;
+    border-radius: 50px;
+}
+
+input {
+    border-radius: 50px;
+    padding: 30px;
+    border: 1px solid #bababa;
+}
